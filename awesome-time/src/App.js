@@ -1,3 +1,5 @@
+/*start of the map API??? Figure out how to make it a component in React */
+
 import logo from './logo.svg';
 import './App.css';
 
