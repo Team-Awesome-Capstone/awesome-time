@@ -10,8 +10,7 @@ function Navbar() {
 
   return (
     <header>
-      <h3></h3>
-      <nav>
+      <nav ref={navRef}>
         <a href='/#'>Event Page</a>
         <a href='/#'> RSVP Form</a>
         <a href='/#'>Contact</a>
