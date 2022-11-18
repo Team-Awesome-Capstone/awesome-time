@@ -56,6 +56,17 @@ nav {
   align-items: center;
 }
 
+
+.map-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 2px;
+  border: solid;
+  border-color: #462c13;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
 @media only screen and (max-width: 1024px) {
   header .nav-btn {
     visibility: visible;
