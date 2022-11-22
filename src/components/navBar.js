@@ -14,6 +14,7 @@ function Navbar() {
         <a href='/#'>Event Page</a>
         <a href='/#'> RSVP Form</a>
         <a href='/#'>Contact</a>
+        <a href='/#'>Meet the Team!</a>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
           <FaTimes />
         </button>
