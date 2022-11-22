@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #494141;
+    --secondary-color: #353570;
+    --dark-color: #292929;
+    --orange-color: orange;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .summary {
+    min-height: 100vh;
+    background-color: var(--secondary-color);
+  }
+  .summary .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  */ .list {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    z-index: 10;
+  }
+  .list .list-item {
+    background-color: var(--dark-color);
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--secondary-color);
+    width: calc(350px - 8px);
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: background-color 200ms ease;
+    -o-transition: background-color 200ms ease;
+    transition: background-color 200ms ease;
+  }
+  .list .list-item:hover {
+    background-color: #1f1f1f;
+  }
+  .list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .search-item-thumbnail img {
+    width: 40px;
+    margin-right: 1rem;
+  }
+  .search-item-info h3 {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .search-item-info p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    opacity: 0.6;
+  }
+  
+  
+  .result-container {
+    padding: 3rem 0;
+  }
+  /* card */
+  
+  .card {
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-0.5rem);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    gap: 0.25em;
+  }
+  
+  .form-group:last-child {
+    margin: 0;
+  }
+  
+  .form-group > label {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #333;
+  }
+  
+  .form-group > input {
+    border: 1px solid #333;
+    border-radius: 0.25em;
+    font-size: 1rem;
+    padding: 0.25em;
+  }
+  
+  .h3 {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .form {
+    overflow: hidden;
+    position: relative;
+  }
