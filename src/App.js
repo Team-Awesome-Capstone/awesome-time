@@ -1,18 +1,7 @@
 import Navbar from './components/navBar';
 import './App.css';
-import React, {useMemo, useState, useEffect} from 'react';
+import React from 'react';
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
-import usePlacesAutocomplete, {
-  getGeocode,
-  getLatLng,
-} from 'use-places-autocomplete';
-import {
-  Combobox,
-  ComboboxInput,
-  ComboboxPopover,
-  ComboboxList,
-  ComboboxOption,
-} from '@reach/combobox';
 import '@reach/combobox/styles.css';
 
   
