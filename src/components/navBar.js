@@ -1,6 +1,8 @@
 import { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import '../App.css';
+import AppRouter from '../AppRouter';
+
 function Navbar() {
   const navRef = useRef();
 
@@ -11,13 +13,14 @@ function Navbar() {
   return (
     <header>
       <nav ref={navRef}>
-        <a href='/#'>Event Page</a>
-        <a href='/#'> RSVP Form</a>
-        <a href='/#'>Contact</a>
-        <a href='/#'>Meet the Team!</a>
+        <a href='/http://localhost:3000/event-page'>Event Page</a>
+        <a href='/http://localhost:3000/rsvp'> RSVP Form</a>
+        <a href='/http://localhost:3000/contact'>Contact</a>
+        <a href='/http://localhost:3000/meet-the-team'>Meet the Team!</a>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
           <FaTimes />
         </button>
+        <AppRouter />
       </nav>
       <button className='nav-btn' onClick={showNavbar}>
         <FaBars />{' '}
