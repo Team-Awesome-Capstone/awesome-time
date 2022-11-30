@@ -59,8 +59,8 @@ if (!isLoaded) return 'Loading...';
     <div className='App'>
       <Navbar />
       <div className='bod'>
-      <Locate panTo={panTo} />
-      <Search panTo={panTo} />
+      {/* <Locate panTo={panTo} />
+      <Search panTo={panTo} /> */}
       </div>
      <GoogleMap
         zoom={10}
