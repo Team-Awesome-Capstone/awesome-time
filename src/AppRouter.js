@@ -1,16 +1,21 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import App from './App'
 import EventPage from './pages/EventPage'
 import RsvpForm from './pages/RsvpForm'
 import Contact from './pages/Contact'
 import MeetTeam from './pages/MeetTeam'
+
 
 function AppRouter() {
   return (
     
     <BrowserRouter>
         <Routes>
+            <Route path="/" element={
+                <App />
+            } />
             <Route path="/event-page" element={
                 <EventPage />
             } />
@@ -24,8 +29,8 @@ function AppRouter() {
                 <MeetTeam />
             } />
         </Routes>
-    
     </BrowserRouter>
+    
 
   )
 }
