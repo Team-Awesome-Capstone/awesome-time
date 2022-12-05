@@ -2,7 +2,7 @@ import React from "react";
 import Youtube from "../components/Youtube";
 
 import './EventPage.css';
-import WeatherShell from "../components/weather/WeatherShell";
+import WeatherShell from "../components/WeatherShell";
 
 
 const EventPage = () => {

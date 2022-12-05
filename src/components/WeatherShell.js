@@ -1,8 +1,8 @@
-import hotDay from './assets/hotDay.jpg';
-import coldDay from './assets/coldDay.jpg';
-import Descriptions from './components/weather/Descriptions';
+import hotDay from '../assets/hotDay.jpg';
+import coldDay from '../assets/coldDay.jpg';
+import Descriptions from '../components/Descriptions';
 import { useEffect, useState } from 'react';
-import { getWeatherData } from './components/weather/WeatherService';
+import { getWeatherData } from '../components/WeatherService';
  
 //get current weather for specific city
 function WeatherShell() {
