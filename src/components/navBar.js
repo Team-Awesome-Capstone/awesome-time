@@ -10,11 +10,12 @@ function Navbar() {
 
   return (
     <header>
-      <nav ref={navRef}>
-        <a href='/#'>Event Page</a>
-        <a href='/#'> RSVP Form</a>
-        <a href='/#'>Contact</a>
-        <a href='/#'>Meet the Team!</a>
+       <nav ref={navRef}>
+        <a href='/'>Home</a>
+        <a href='/event-page'>Event Page</a>
+        <a href='/rsvp'> RSVP Form</a>
+        <a href='/contact'>Contact</a>
+        <a href='/meet-the-team'>Meet the Team!</a>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
           <FaTimes />
         </button>
