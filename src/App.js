@@ -14,6 +14,7 @@ import {
   ComboboxOption,
 } from '@reach/combobox';
 import '@reach/combobox/styles.css';
+import Form from './components/form';
 
 const libraries = ['places'];
 const mapContainerStyle = {
@@ -50,6 +51,7 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
+      <Form />
       <div className='bod'>
         <Locate panTo={panTo} />
         <Search panTo={panTo} />
